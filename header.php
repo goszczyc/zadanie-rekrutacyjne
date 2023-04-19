@@ -14,11 +14,14 @@
 
 <body class="bg-d-gray min-h-[2000px]">
 
-	<header class="header flex justify-center px-5 pt-3 pb-[1.125rem] fixed top-0 left-0 w-full bg-white transition-[padding] duration-500 delay-200">
-		<div class="flex items-center">
+	<header class="header fixed top-0 left-0 w-full px-5 pt-3 pb-[1.125rem] bg-white transition-[padding] duration-500 delay-200 z-[1000] isolate">
+		<div class="flex justify-between lg:justify-normal items-center max-w-[1260px] mx-auto">
 			<a href="<?= esc_url(home_url()); ?>" class="mr-[25px]">
 				<img src="<?= THEME_URI . 'dist/images/logo.svg'; ?>" alt="logo" class="w-60">
 			</a>
-			<?php get_template_part('components/main-menu', '', ['menu' => "main-nav"]); ?>
+
+			<?php /* Desktop menu */ get_template_part('components/main-menu', '', ['menu' => "main-nav"]); ?>
+			<?php /* Burger menu */ get_template_part('components/burger-menu', '', ['menu' => "main-nav"]); ?>
+			<?php get_template_part('components/burger'); ?>
 		</div>
 	</header>

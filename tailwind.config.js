@@ -16,6 +16,11 @@ module.exports = {
 			transitionDelay: {
 				'0': '0ms',
 				'2000': '2000ms',
+				'burger': '0ms, 200ms, 0ms',
+				'burger-active': '200ms, 0ms, 0ms',
+			},
+			transitionProperty: {
+				'burger': 'background-color, top, transform'
 			},
 			fontSize: {
 				'2xs': ['0.625rem', '0.75rem']
@@ -48,6 +53,7 @@ module.exports = {
 			gray: "#ebebeb",
 			"d-gray": '#979494',
 			black: "#161616",
+			inherit: 'inherit',
 			current: "currentColor",
 			transparent: "transparent"
 		},
