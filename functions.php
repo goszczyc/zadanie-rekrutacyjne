@@ -1,4 +1,8 @@
 <?php
+// Defines
+define('THEME_URI', trailingslashit(esc_url(get_template_directory_uri())));
+
+
 // General
 require_once __DIR__ . '/src/php/general/general.php';
 // ACF options page
