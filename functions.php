@@ -9,6 +9,8 @@ require_once __DIR__ . '/src/php/general/general.php';
 require_once __DIR__ . '/src/php/acf/options.php';
 // Menu array
 require_once __DIR__ . '/src/php/menu/wp-menu-array.php';
+// AJAX
+require_once __DIR__.'/src/php/ajax/get_more_posts.php';
 
 // Custom post types
 

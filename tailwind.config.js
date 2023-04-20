@@ -24,6 +24,12 @@ module.exports = {
 			},
 			fontSize: {
 				'2xs': ['0.625rem', '0.75rem']
+			},
+			boxShadow: {
+				'post': '0px 0px 24px rgba(22,22,22,0.08) '
+			},
+			gridTemplateColumns: {
+				'blog': 'repeat(auto-fit, minmax(285px, 1fr))'
 			}
 		},
 		fontFamily: {
