@@ -1,5 +1,5 @@
 <footer class="bg-primary">
-    <div class="container mx-auto grid grid-cols-2 sm:grid-cols-4 gap-16 pt-16 px-4 pb-24  text-white">
+    <div class="container mx-auto grid grid-cols-2 sm:grid-cols-4 gap-16 pt-16 px-5 pb-24  text-white">
         <div>
             <h3 class="text-lg xs:text-xl font-quicksand font-bold mb-4">
                 O nas

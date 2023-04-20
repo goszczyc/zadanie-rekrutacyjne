@@ -40,7 +40,7 @@ module.exports = {
 		},
 		container: {
 			screens: {
-				lg: "1228px",
+				lg: "1236px",
 			},
 		},
 		colors: {

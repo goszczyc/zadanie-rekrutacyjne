@@ -7,8 +7,8 @@ $form_heading = get_field('form_heading') ? get_field('form_heading') : 'Podaj d
 
 <section class="bg-cover bg-center bg-no-repeat" style="background-image: url(<?= $hero_bg_image; ?>);">
     <div class="max-w-[100vw] overflow-hidden">
-        <div class="container mx-auto grid grid-cols-1 xs:grid-cols-10  md:grid-cols-2 lg:grid-cols-12 items-end">
-            <div class="relative w-full col-span-full md:col-span-1 lg:col-span-7 px-2 before:absolute before:bottom-0 before:left-1/2 before:w-[300vw] before:-translate-x-1/2 before:bg-primary before:opacity-75 before:h-full">
+        <div class="container mx-auto grid grid-cols-1 xs:grid-cols-10  md:grid-cols-2 lg:grid-cols-12 gap-4 px-5 items-end">
+            <div class="relative w-full col-span-full md:col-span-1 lg:col-span-7 before:absolute before:bottom-0 before:left-1/2 before:w-[300vw] before:-translate-x-1/2 before:bg-primary before:opacity-75 before:h-full">
                 <div class="relative py-16 text-center md:text-left">
                     <h1 class="text-4xl sm:text-[52px]/[56px] text-secondary font-bold font-quicksand mb-2">
                         <?= $hero_heading; ?>
@@ -18,7 +18,7 @@ $form_heading = get_field('form_heading') ? get_field('form_heading') : 'Podaj d
                     </p>
                 </div>
             </div>
-            <div class="w-full  xs:col-span-8 xs:col-start-2 sm:col-start-3 sm:col-span-6 md:col-span-1 lg:col-span-5 px-2 py-16">
+            <div class="w-full  xs:col-span-8 xs:col-start-2 sm:col-start-3 sm:col-span-6 md:col-span-1 lg:col-span-5 py-16">
                 <div class="contact-form bg-white rounded-[10px] p-8">
                     <h2 class="text-xl text-center md:text-left sm:text-2xl text-primary font-bold font-quicksand mb-5">
                         <?= $form_heading; ?>
