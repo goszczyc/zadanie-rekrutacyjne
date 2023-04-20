@@ -1,0 +1,19 @@
+.btn {
+    @apply inline-block
+    font-quicksand
+    font-bold
+    text-[17px]/[21px]
+    px-20
+    py-[14px]
+    text-white
+    rounded-[10px]
+    transition-colors
+    duration-300
+    cursor-pointer;
+
+    &--orange {
+        @apply bg-secondary-d
+        hover:bg-primary
+        focus:bg-primary
+    }
+}

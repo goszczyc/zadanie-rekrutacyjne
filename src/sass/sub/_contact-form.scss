@@ -1,0 +1,113 @@
+.contact-form {
+    @apply relative
+    overflow-hidden;
+    &__group {
+        @apply mb-3;
+
+        &--horizontal {
+            @apply grid grid-cols-[3fr_2fr] gap-4;
+        }
+    }
+    &__input {
+        size: 0;
+        @apply text-[17px] leading-none
+        px-4 py-3
+        w-full
+        border-d-gray
+        border
+        border-solid
+        placeholder:text-d-gray
+        focus:outline-primary
+        focus:border-primary;
+    }
+    &__acceptance {
+        // hide default checkbox
+        @apply block w-0 h-0 opacity-0;
+
+        & + span {
+            @apply block
+            relative
+            text-[13px]/[18px]
+            pl-[31px]
+            text-black
+            font-light
+            cursor-pointer
+            before:absolute
+            before:top-0
+            before:left-0
+            before:w-[17px]
+            before:h-[17px]
+            before:border
+            before:border-d-gray
+            before:border-solid
+            after:hidden
+            after:absolute
+            after:top-2
+            after:left-2
+            after:w-2.5
+            after:h-1.5
+            after:border-l-2
+            after:border-l-primary
+            after:border-b-2
+            after:border-b-primary
+            after:border-solid
+            after:-translate-x-1/2
+            after:-translate-y-2/3
+            after:-rotate-45;
+        }
+        &:focus + span {
+            @apply before:border-primary before:outline-primary before:outline before:outline-1
+        }
+        &:checked + span {
+            @apply after:block
+            before:border-primary;
+        }
+    }
+    &__submit {
+        display: flex;
+        justify-content: center;
+    }
+    .wpcf7-list-item {
+        margin: 0;
+    }
+    .wpcf7-not-valid-tip {
+        @apply text-[12px]/[1];
+    }
+    .wpcf7-spinner {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        margin: 0;
+        background-color: rgba($color: #ffffff, $alpha: 0.7);
+        backdrop-filter: blur(3px);
+        opacity: 1;
+
+        &::before {
+            top: 50%;
+            left: 50%;
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            transform-origin: center;
+            border-top: 12px solid #1C3E95;
+            border-bottom: 12px solid #1C3E95;
+            border-left: 12px solid #FE7A22;
+            border-right: 12px solid #FE7A22;
+            animation: spinning 1000ms linear infinite;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .wpcf7 form .wpcf7-response-output {
+        @apply text-sm m-0 mt-4
+    }
+}
+
+@keyframes spinning {
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
