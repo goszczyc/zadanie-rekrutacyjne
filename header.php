@@ -12,9 +12,9 @@
 </head>
 
 
-<body class="bg-d-gray min-h-[2000px]">
+<body>
 
-	<header class="header fixed top-0 left-0 w-full px-5 pt-3 pb-[1.125rem] bg-white transition-[padding] duration-500 delay-200 z-[1000] isolate">
+	<header class="header sticky top-0 left-0 w-full px-5 pt-3 pb-[1.125rem] bg-white transition-[padding] duration-500 delay-200 z-[1000] isolate">
 		<div class="flex justify-between lg:justify-normal items-center max-w-[1260px] mx-auto">
 			<a href="<?= esc_url(home_url()); ?>" class="mr-[25px]">
 				<img src="<?= THEME_URI . 'dist/images/logo.svg'; ?>" alt="logo" class="w-60">
