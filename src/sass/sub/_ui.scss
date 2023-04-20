@@ -12,8 +12,11 @@
     cursor-pointer;
 
     &--orange {
-        @apply bg-secondary-d
-        hover:bg-primary
-        focus:bg-primary
+        @apply bg-secondary
+        hover:bg-secondary-d
+        focus:bg-secondary-d
+    }
+    &--secondary {
+        @apply px-12 py-4;
     }
 }
