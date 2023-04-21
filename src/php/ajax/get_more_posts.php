@@ -10,7 +10,7 @@ function get_more_posts()
     // Query args
     $args = array(
         'post_type' => 'post',
-        'posts_per_page' => 4,
+        'posts_per_page' => 3,
         'paged' => $paged
     );
     // The Query
