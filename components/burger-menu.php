@@ -8,7 +8,7 @@ $menu = wp_get_menu_array($args['menu']);
     <?php foreach ($menu['menus'] as $item) : ?>
         <?php $current = ($item['current']) ? 'text-secondary' : ''; ?>
         <li>
-            <a href="<?= $item['url'] ?>" class="block px-[15px] py-3 text-white text-2xl font-bold transition-colors duration-300 hover:text-secondary <?= $current; ?>">
+            <a href="<?= $item['url'] ?>" class="block px-[15px] py-3 text-white text-2xl font-bold transition-colors duration-300 hover:text-secondary text-right <?= $current; ?>">
                 <?= $item['title'] ?>
             </a>
         </li>

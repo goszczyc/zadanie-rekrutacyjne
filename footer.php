@@ -20,9 +20,9 @@
         </div>
         <div>
             <h3 class="text-lg xs:text-xl font-quicksand font-bold mb-4">
-               Infolinia
+                Infolinia
             </h3>
-           <a href="tel: +48223111234" class="text-secondary text-xl font-bold hover:text-secondary-d focus:text-secondary-d transition-colors duration-300">+48 22 311 1234</a>
+            <a href="tel: +48223111234" class="text-secondary text-xl font-bold hover:text-secondary-d focus:text-secondary-d transition-colors duration-300">+48 22 311 1234</a>
         </div>
     </div>
 </footer>
