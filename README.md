@@ -1,1 +1,3 @@
-*Zadanie rekrutacyjne - develtio
+# Zadanie rekrutacyjne - develtio
+
+wersja WP 6.2
