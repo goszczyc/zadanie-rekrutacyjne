@@ -26,7 +26,8 @@ module.exports = {
 				'2xs': ['0.625rem', '0.75rem']
 			},
 			boxShadow: {
-				'post': '0px 0px 24px rgba(22,22,22,0.08) '
+				'post': '0px 0px 24px rgba(22,22,22,0.08) ',
+				'menu': '0px 2px 24px rgba(28,62,149,0.08) '
 			},
 			gridTemplateColumns: {
 				'blog': 'repeat(auto-fit, minmax(285px, 1fr))'

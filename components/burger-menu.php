@@ -3,7 +3,6 @@ $args = wp_parse_args($args, array(
     'menu' => null,
 ));
 $menu = wp_get_menu_array($args['menu']);
-$current = ($item['current']) ? 'text-secondary' : '';
 ?>
 <ul id="burger-menu" aria-hidden="true" class="flex flex-col lg:hidden items-end fixed top-0 right-0 pt-24 px-5 w-full h-full list-none bg-primary transition-transform duration-200 aria-hidden:translate-x-full">
     <?php foreach ($menu['menus'] as $item) : ?>

@@ -921,6 +921,13 @@ video {
 }.text-white{
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
+}.shadow-menu{
+  --tw-shadow: 0px 2px 24px rgba(28,62,149,0.08) ;
+  --tw-shadow-colored: 0px 2px 24px var(--tw-shadow-color);
+  -webkit-box-shadow: 0 0 rgba(0,0,0,0), 0 0 rgba(0,0,0,0), var(--tw-shadow);
+          box-shadow: 0 0 rgba(0,0,0,0), 0 0 rgba(0,0,0,0), var(--tw-shadow);
+  -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0,0,0,0)), var(--tw-ring-shadow, 0 0 rgba(0,0,0,0)), var(--tw-shadow);
+          box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0,0,0,0)), var(--tw-ring-shadow, 0 0 rgba(0,0,0,0)), var(--tw-shadow);
 }.shadow-post{
   --tw-shadow: 0px 0px 24px rgba(22,22,22,0.08) ;
   --tw-shadow-colored: 0px 0px 24px var(--tw-shadow-color);
